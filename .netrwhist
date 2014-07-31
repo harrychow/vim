@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/var/www/portal/packages/theme/controllers/dbs'
 let g:netrw_dirhist_2='/var/www/portal/concrete/core'
 let g:netrw_dirhist_3='/var/www/sugar/premierleague/service/example'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='/var/www/portal/libraries'
 let g:netrw_dirhist_5='/var/www/portal/packages/dbs/controllers/dbs'
 let g:netrw_dirhist_6='/var/www/portal/packages/dbs/blocks'
 let g:netrw_dirhist_7='/var/www/portal/packages/dbs/single_pages/dbs'
+let g:netrw_dirhist_8='/home/harry/.vim/bundle/nerdtree/.git'
+let g:netrw_dirhist_9='/home/harry/.vim'

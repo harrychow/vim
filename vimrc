@@ -1,10 +1,9 @@
-" Pathogen
-filetype off " Pathogen needs to run before plugin indent on
-call pathogen#incubate()
+"Pathogen
+filetype off
+call pathogen#infect('bundle/{}')
 call pathogen#helptags() " generate helptags for everything in 'runtimepath'
-filetype plugin indent on
+filetype plugin indent on"syntax enable
 
-"syntax enable
 "set background=dark
 "let g:solarized_termcolors=256
 "colorscheme solarized
@@ -33,8 +32,6 @@ let mapleader = "\<Space>"
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>a :wqa<CR>
-
-
 
 
 
@@ -74,3 +71,5 @@ augroup JumpCursorOnEdit
  \ endif |
  \ unlet b:doopenfold |
  \ endif
+
+
