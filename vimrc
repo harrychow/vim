@@ -4,9 +4,14 @@ call pathogen#infect('bundle/{}')
 call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 filetype plugin indent on"syntax enable
 
-"set background=dark
-"let g:solarized_termcolors=256
-"colorscheme solarized
+if has('gui_running')
+        set background=light
+else
+   set background=dark
+endif
+set t_Co=16
+let g:solarized_termcolors=255
+colorscheme solarized
 
 " Personal settings
 set number
@@ -32,6 +37,7 @@ let mapleader = "\<Space>"
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>a :wqa<CR>
+nnoremap <Leader>q :q<CR>
 
 
 
