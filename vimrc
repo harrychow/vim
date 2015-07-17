@@ -33,12 +33,19 @@ set spell spelllang=en_us
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
+" Shortcuts
 let mapleader = "\<Space>"
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>a :wqa<CR>
 nnoremap <Leader>q :q<CR>
 
+
+" PHP Folding
+let php_folding = 0
+map <F5> <Esc>:EnableFastPHPFolds<Cr>
+map <F6> <Esc>:EnablePHPFolds<Cr>
+map <F7> <Esc>:DisablePHPFolds<Cr>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
